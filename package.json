@@ -1,12 +1,35 @@
 {
-  "name": "create-project",
+  "name": "@deep-red/create-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CLI for project boilerplate",
+  "main": "src/index.js",
+  "bin": {
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrsimonelli/create-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nrsimonelli/create-project/issues"
+  },
+  "homepage": "https://github.com/nrsimonelli/create-project#readme"
 }
