@@ -16,12 +16,14 @@
     "cli",
     "create-project"
   ],
-  "author": "",
+  "author": "Nick Simonelli",
   "license": "ISC",
   "dependencies": {
     "arg": "^5.0.0",
+    "chalk": "^4.1.0",
     "esm": "^3.2.25",
-    "inquirer": "^8.0.0"
+    "inquirer": "^8.0.0",
+    "ncp": "^2.0.0"
   },
   "devDependencies": {},
   "repository": {
