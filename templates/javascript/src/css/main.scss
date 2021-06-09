@@ -1,6 +1,6 @@
 // BASE
-$background: #292a2d;
-$color: #a9a9b3;
+$color: #292a2d;
+$background: #a9a9b3;
 
 html {
   margin: 0;
@@ -30,6 +30,7 @@ body {
 }
 
 .root {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,8 +38,8 @@ body {
 }
 
 .wave-layer {
-  background-image: url('/images/wave-layer.svg');
+  background-image: url('../images/wave-layer.svg');
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: auto 100%;
+  background-size: 100% auto;
 }
