@@ -40,4 +40,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.wave-layer {
+  background-image: url("/images/wave-layer.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
 /*# sourceMappingURL=main.css.map */
