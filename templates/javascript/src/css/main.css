@@ -6,13 +6,23 @@ html {
   font: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3;
+}
+
 body {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
   min-height: 100vh;
-  background-color: #4c4c4c;
-  color: #141414;
+  font-family: 'Poppins', sans-serif;
+  background-color: #292a2d;
+  color: #a9a9b3;
 }
 
 .root {
